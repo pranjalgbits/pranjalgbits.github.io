@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900');
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  article, header, section, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+      display: block;
+  }
+
+  body {
+      color: #222;
+      font-size: 100%;
+      line-height: 24px;
+      margin: 0;
+      padding:0;
+      font-family: "Raleway",sans-serif;
+  }
+  
+  section {
+      float: left;
+      width: 100%;
+      padding-bottom:3em;
+  }
+  
+  .rt-heading {
+      margin: 0 auto;
+      text-align:center;
+  }
+  .page-content{
+      line-height:28px;	
+  }
+  
+  
+  .rt-container {
+      margin: 0 auto;
+      padding-left:12px;
+      padding-right:12px;
+  }
+  
+  [class^="col-rt-"] {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    padding: 0 15px;
+    min-height: 1px;
+    position: relative;
+  }
+
+body {
+    background: #e1e6eb;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #19faef, #35cdf3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1f2a30, #0d3110); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+
+.my-profile .card {
+    border-radius: 10px;
+}
+
+.my-profile .card .card-header .profile_img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+}
+
+.my-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.my-profile .card p {
+    font-size: 16px;
+    color: #000;
+}
+
+.my-profile .table th,
+.my-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+.linkedin:hover{
+    color:rgba(4, 0, 253, 0.842);
+    transform: scale(2,2);
+}
+ 
+.facebook:hover{
+    color:rgb(4, 0, 255);
+    transform: scale(2,2);
+}
+
+.content{
+    color: #565656;
+    padding: 2.2em;
+}
+
+a{
+    text-decoration: none;
+    color: #565656;
+    transition: all 0.3s;
+    font-size: 1.2em;
+    margin-right: 1.2em;
+}
+ 
+a:last-child{
+    margin: 0;
+}
+
+.pills {
+    background-color: rgb(216, 238, 241);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+
+  @media (min-width: 768px) {
+    .rt-container {
+      width: 750px;
+    }
+    [class^="col-rt-"] {
+      float: left;
+      width: 49.9999999999%;
+    }
+    .col-rt-6, .col-rt-12 {
+      width: 100%;
+    }
+    
+  }
+  
+  @media (min-width: 1200px) {
+      .rt-container {
+          width: 1170px;
+      }
+      .col-rt-1 {
+          width:16.6%;
+      }
+      .col-rt-2 {
+          width:30.33%;
+      }
+      .col-rt-3 {
+          width:50%;
+      }
+      .col-rt-4 {
+          width: 67.664%;
+      }
+      .col-rt-5 {
+          width: 83.33%;
+      }
+      
+  
+  }
+  
+  @media only screen and (min-width:240px) and (max-width: 768px){
+       .ScriptTop h1, .ScriptTop ul {
+          text-align: center;
+      }
+      .ScriptTop h1{
+          margin-top:0;
+          margin-bottom:15px;
+      }
+      .ScriptTop ul{
+           margin-top:12px;		
+      }
+      
+      .ScriptHeader h1,
+      .ScriptHeader h2, 
+      .scriptnav ul{
+          text-align:center;	
+      }
+      .scriptnav ul{
+           margin-top:12px;		
+      }
+      #float-right{
+          float:none;	
+      }
+      
+  }
