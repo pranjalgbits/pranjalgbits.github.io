@@ -138,6 +138,29 @@ a:last-child{
     border-radius: 16px;
   }
 
+.skills {
+    border: none;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 10px;
+  }
+
+  .skill-bg-1 {
+    background-color: rgba(216, 238, 241);
+  }
+
+  .skill-bg-2 {
+    background-color: rgb(170, 243, 156);
+  }
+
+  .skill-bg-3 {
+    background-color: rgb(166, 169, 182);
+  }
+
   @media (min-width: 768px) {
     .rt-container {
       width: 750px;
